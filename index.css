@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    color: white;
+}
+
+.counter {
+    text-align: center;
+}
+
+#value {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 25px;
+    padding: 12px 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#plus {
+    background: #27ae60;
+    color: white;
+}
+
+#minus {
+    background: #e74c3c;
+    color: white;
+}
+
+#reset {
+    background: #2980b9;
+    color: white;
+}
